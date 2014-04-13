@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aaaf2ab0-2494-4fc2-87e9-a809ce3e9447" name="elaurpe@E764315094C0B6 2014-04-13 14:11:52" runUser="ERICSSON\elaurpe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8ac30af6-9b07-4904-8965-4ffa41c71d06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="elaurpe_E764315094C0B6 2014-04-13 14_11_52">
+      <DeploymentItem filename="C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\bin\Debug\EulerProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-13T14:11:52.9328767-07:00" queuing="2014-04-13T14:11:53.3318996-07:00" start="2014-04-13T14:11:53.3499006-07:00" finish="2014-04-13T14:11:53.9189331-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\elaurpe\documents\visual studio 2010\projects\multiplesof3and5\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="ab69ec6b-77e2-81f6-64c6-c7c2730bd73b">
+      <Execution id="514527a8-6373-4b41-8360-eb4a1a535f60" />
+      <TestMethod codeBase="C:/Users/elaurpe/Documents/Visual Studio 2010/Projects/MultiplesOf3and5/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.UnitTest1, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ab69ec6b-77e2-81f6-64c6-c7c2730bd73b" executionId="514527a8-6373-4b41-8360-eb4a1a535f60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="514527a8-6373-4b41-8360-eb4a1a535f60" testId="ab69ec6b-77e2-81f6-64c6-c7c2730bd73b" testName="TestMethod1" computerName="E764315094C0B6" duration="00:00:00.0783676" startTime="2014-04-13T14:11:53.3609012-07:00" endTime="2014-04-13T14:11:53.8909315-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="514527a8-6373-4b41-8360-eb4a1a535f60">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;23&gt;. Actual:&lt;33&gt;. </Message>
+          <StackTrace>   at EulerProjectTest.UnitTest1.TestMethod1() in C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProjectTest\UnitTest1.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

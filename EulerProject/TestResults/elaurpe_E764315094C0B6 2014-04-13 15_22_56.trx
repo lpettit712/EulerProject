@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="892e1c44-5f4a-407a-9819-a340ae10951a" name="elaurpe@E764315094C0B6 2014-04-13 15:22:56" runUser="ERICSSON\elaurpe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8ac30af6-9b07-4904-8965-4ffa41c71d06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="elaurpe_E764315094C0B6 2014-04-13 15_22_56">
+      <DeploymentItem filename="C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\bin\Debug\EulerProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-13T15:22:56.6027447-07:00" queuing="2014-04-13T15:22:56.6717487-07:00" start="2014-04-13T15:22:56.6817492-07:00" finish="2014-04-13T15:22:57.1277747-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\elaurpe\documents\visual studio 2010\projects\multiplesof3and5\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="e85dde74-2ee6-fdd9-a05f-d533e9cb09c1">
+      <Execution id="4eee6a40-35ee-4c96-bfc5-f64564146bec" />
+      <TestMethod codeBase="C:/Users/elaurpe/Documents/Visual Studio 2010/Projects/MultiplesOf3and5/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem2Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e85dde74-2ee6-fdd9-a05f-d533e9cb09c1" executionId="4eee6a40-35ee-4c96-bfc5-f64564146bec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4eee6a40-35ee-4c96-bfc5-f64564146bec" testId="e85dde74-2ee6-fdd9-a05f-d533e9cb09c1" testName="TestMethod1" computerName="E764315094C0B6" duration="00:00:00.0571797" startTime="2014-04-13T15:22:56.6887496-07:00" endTime="2014-04-13T15:22:57.1017733-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eee6a40-35ee-4c96-bfc5-f64564146bec">
+    </UnitTestResult>
+  </Results>
+</TestRun>

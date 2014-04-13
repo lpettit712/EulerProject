@@ -1,0 +1,4 @@
+C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\bin\Debug\EulerProject.dll
+C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\bin\Debug\EulerProject.pdb
+C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\obj\Debug\EulerProject.dll
+C:\Users\elaurpe\Documents\Visual Studio 2010\Projects\MultiplesOf3and5\EulerProject\obj\Debug\EulerProject.pdb
